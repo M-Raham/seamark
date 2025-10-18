@@ -49,7 +49,7 @@ export default function Navbar() {
 
           {/* Desktop Links */}
           <div className="hidden md:flex items-center gap-8">
-            {["Home", "What We Do", "Why Sea Air", "Sustainability", "Contact Us"].map((item) => (
+            {["Home", "What We Do", "Why Chose Us", "Sustainability", "Contact Us"].map((item) => (
               <motion.a
                 key={item}
                 href="#"
